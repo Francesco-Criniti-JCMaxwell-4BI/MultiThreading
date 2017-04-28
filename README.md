@@ -1,21 +1,14 @@
-# TicTacToe
-Questo Branch e' usato per creare una discussione in classe riguardo l'esercizio TicTacToe compresi i concetti che sono legati al codice.
+# Esercizio 1
 
-Per la discussione ho creato una Pull Request "TicTacToe-4Binfo-2017".
+In questo progetto abbiamo creato tre Threads chiamati TIC, TAC e TOE.
 
-Vorrei che tutti partecipassero attivamente alla discussione.
+Questi tre Threads partiranno da 10 e arriveranno a 0 attraverso un ciclo for in un tempo casuale che va da 100 a 300 che verrà prima calcolato e poi trasformato in millisecondi.
 
-# Istruzioni
-Ognuno degli studenti deve: 
-1. Creare un Fork del mio progetto MutiThreading.
-2. Creare un Branch chiamato Esercizio 1.
-3. Fare le modifiche del codice per svolgere l'Esercizio 1.
-4. Per ogni modifica apportata introdurre un commento nel codice.
-5. Modificare README file aggiungere la descrizione del programma TicTacToe.
-6. Scrivere una pagina WIKI con l'elenco dei concetti imparati e la descrizione con proprie parole di ogni concetto.
-7. Verificare (testare) il codice che si e' modificato.
-8. Quando il codice funziona correttamente fare un MERGE (fusione) del Branch "Esercizio 1" con il Branch "master"
+Una variabile chiamata punteggio e inizializzata a 0 si incrementerà di 1 ogni volta che il Thread TOE comparirà dopo il Thread TAC.
 
-NOTA: Il testo dell'Esercizio 1 si trova nella WIKI di questo progetto.
 
-# Buon Lavoro!
+# Di seguito ci sono i codici per generare un numero casuale tra 100 e 300
+
+**int casuale=100+(int)(Math.random()*300);**
+
+# Nella sezione Home della Wiki verrano visualizzati due screenshot con il relativo commento.
