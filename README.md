@@ -9,6 +9,6 @@ Una variabile chiamata punteggio e inizializzata a 0 si incrementerà di 1 ogni 
 
 # Di seguito ci sono i codici per generare un numero casuale tra 100 e 300
 
-** int casuale=100+(int)(Math.random()*300); **
+* int casuale=100+(int)(Math.random()*300); *
 
 # Nella sezione Home della Wiki verrano visualizzati due screenshot con il relativo commento.
