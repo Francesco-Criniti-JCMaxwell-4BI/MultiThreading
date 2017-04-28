@@ -89,14 +89,14 @@ class TicTacToe implements Runnable
             int casuale=100+(int)(Math.random()*300); //genera un numero casuale da 100 a 300
              try {
                 TimeUnit.MILLISECONDS.sleep(casuale);  //il numero casuale diventa il tempo con cui viene effettuato il conto alla rovescia
-            } catch (InterruptedException e) {}
-            if("TOE".equals(t) && c == true)
-                cont++;
+            } catch (InterruptedException e) {} //eccezione
+            if("TOE".equals(t) && c == true) 
+                cont++; //incremento il contatore
             else
                 c = false;
             msg += t + ": " + i;
             
-            System.out.println(msg);
+            System.out.println(msg); //stampo a video il messaggio del punteggio
         } 
     }
 }
