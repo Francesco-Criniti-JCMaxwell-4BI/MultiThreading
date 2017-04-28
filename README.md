@@ -11,4 +11,4 @@ Una variabile chiamata punteggio e inizializzata a 0 si incrementerà di 1 ogni 
 
 * int casuale=100+(int)(Math.random()*300); 
 
-# Nella sezione Home della Wiki verrano visualizzati due screenshot con il relativo commento.
+# Nella sezione Home della Wiki verrano visualizzati due screenshot dei due Run del progetto con il relativo commento finale.
