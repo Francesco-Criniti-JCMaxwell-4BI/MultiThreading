@@ -12,3 +12,12 @@ Una variabile chiamata punteggio e inizializzata a 0 si incrementerà di 1 ogni 
 * int casuale=100+(int)(Math.random()*300); 
 
 # Nella sezione Home della Wiki verrano visualizzati due screenshot dei due Run del progetto con il relativo commento finale.
+
+
+
+
+
+# Esercizio 2
+
+Il secondo esercizio è un aggiornamento del primo, dove noi avevamo riscontrato un problema di sincronizzazione nell' aggiornamento della variabile punteggio e nella scrittura a video.
+Avendo inserito un monitor, quest' ultimo farà da "semaforo" facendo accedere ad alcuni metodi contenuti al suo interno un solo thread alla volta, questo grazie all' attributo syncronized.
